@@ -1,0 +1,23 @@
+[project]
+name = "weekly-pulse"
+version = "0.1.0"
+description = "Weekly PR/issue pulse from GitHub and a read-only Azure DevOps exporter."
+readme = "ReadMe.md"
+requires-python = ">=3.10"
+# Only ado_readonly_export.py needs this; weekly_pr_pulse.py is standard library only.
+dependencies = [
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.uv]
+# Two scripts, not an installable package: `uv sync` makes the environment, nothing is built.
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["."]

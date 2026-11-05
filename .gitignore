@@ -1,0 +1,16 @@
+# Secrets: the Azure DevOps PAT lives here. Never commit it.
+.env
+*.env
+
+# Exported Azure DevOps data (internal work items, PRs, builds)
+ado_export/
+
+# Python / uv / pytest
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp
+
+
+./ado_export

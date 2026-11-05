@@ -1,0 +1,17 @@
+{
+  "intuituiveiq": ["ITP-INC/SemantixIQ-M"],
+  "appevolve": [
+    "ITP-INC/appevolve-studio",
+    "ITP-INC/appevolve-backend",
+    "ITP-INC/appevolve-frontend",
+    "ITP-INC/prodtwin-stable",
+    "ITP-INC/appevolve-devservices-infra"
+  ],
+  "neurostack": [
+    "ITP-INC/agent-factory-v3",
+    "ITP-INC/neurostack-runtime-service",
+    "ITP-INC/neurostack-governance-plane",
+    "ITP-INC/neurostack-agentic-plane"
+  ],
+  "apex": ["ITP-INC/apex"]
+}
